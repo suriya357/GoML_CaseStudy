@@ -1,0 +1,20 @@
+{
+    "model": "Logistic Regression",
+    "target": "placed",
+    "excluded_columns": [
+        "student_id",
+        "status_code"
+    ],
+    "features_used": [
+        "department",
+        "city_tier",
+        "cgpa",
+        "backlogs",
+        "internship_months",
+        "coding_score",
+        "projects",
+        "workshops"
+    ],
+    "threshold": 0.5799999999999997,
+    "random_state": 42
+}
